@@ -44,7 +44,6 @@ namespace RestApiModelDDD.Infrastructure.Data.Repositorys
             {
                 sqlContext.Set<TEntity>().Remove(obj);
                 sqlContext.SaveChanges();
-
             }catch(Exception ex)
             {
                 throw ex;
